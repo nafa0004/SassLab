@@ -1,0 +1,12 @@
+@mixin mediaQuery1($arg1, $arg2){
+	@media all and (min-width:$arg1) and (max-width:$arg2){
+		@content;
+	}
+}
+
+
+@mixin mediaQuery2($arg3){
+	@media all and (min-width:$arg3){
+		@content;
+	}
+}
